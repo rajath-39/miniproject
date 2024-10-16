@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports E-commerce - Rajath</title>
+    <style>
+ body {
+      background: linear-gradient(to right, #f8b7b7, #f8f8f5);
+      
+    }
+    .navbar {
+        background: linear-gradient(to right, #f58b8b, #f76002);
+    }
+
+    .navbar-brand, .navbar-nav a {
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero-section {
+      background-color: #09050f;
+      color: #120d0d;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 24px;
+    }
+
+    .products-section {
+      background-color: #0b0606;
+    }
+
+    .products-section h2 {
+      color: #000;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .products-section .card {
+      border: 1px solid #ccc;
+    }
+
+    .products-section .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .products-section .card-title {
+      color: #000;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    footer a {
+      
+      background-color: rgb(241, 245, 245);
+    }
+    .card-img-top{
+       
+        height: 400px;
+    }
+
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rajath Sports</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center" style="background-image: url('sports-bg.jpg');">
+        <div class="container py-5">
+            <h1 class="display-4">Welcome to Rajath Sports Store</h1>
+            <p class="lead">Explore the best sports equipment at unbeatable prices!</p>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="container my-5">
+        <h2 class="text-center">Our Products</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.FqhBnLatFeXy7_k6qxliLAHaFj?w=252&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Football">
+                    <div class="card-body">
+                        <h5 class="card-title">Football</h5>
+                        <p class="card-text">High-quality football for professionals and enthusiasts.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="basketball.jpeg" class="card-img-top" alt="Basketball" >
+                    <div class="card-body">
+                        <h5 class="card-title">Basketball</h5>
+                        <p class="card-text">Durable basketball designed for both indoor and outdoor use.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="hockey stick.jpg" class="card-img-top" alt="hockey stick" width="40%" height="40%">
+                    <div class="card-body">
+                        <h5 class="card-title">hockey stick</h5>
+                        <p class="card-text">Lightweight and powerful ball for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="volleyball.jpeg" class="card-img-top" alt="volleyball">
+                    <div class="card-body">
+                        <h5 class="card-title">volleyball</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="swimming goggles.jpeg" class="card-img-top" alt="swimming goggles">
+                    <div class="card-body">
+                        <h5 class="card-title">swimming goggles</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="tennis racket.jpeg" class="card-img-top" alt="tennis racket">
+                    <div class="card-body">
+                        <h5 class="card-title">tennis racket</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="rugby ball.jpeg" class="card-img-top" alt="rugby ball">
+                    <div class="card-body">
+                        <h5 class="card-title">rugby ball</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="badminton racket.webp" class="card-img-top" alt="badminton racket">
+                    <div class="card-body">
+                        <h5 class="card-title">badminton racket</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="baseball bat.jpeg" class="card-img-top" alt="baseball bat">
+                    <div class="card-body">
+                        <h5 class="card-title">baseball Bat</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.ruETDHsZ-B_1Zh2mZj-t8AHaE9&pid=Api&P=0&h=180" class="card-img-top" alt="sports shoes">
+                    <div class="card-body">
+                        <h5 class="card-title">sports shoes</h5>
+                        <p class="card-text">Lightweight and comfortables shoes for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.RmqhDOf48Fj72flRl4YYQgHaHa&pid=Api&P=0&h=180" class="card-img-top" alt="Cricket ball">
+                    <div class="card-body">
+                        <h5 class="card-title">Cricket ball</h5>
+                        <p class="card-text">Lightweight and powerful bat for all players.</p>
+                        <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                    </div>
+                </div>
+          </div>  
+          <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="cricket bat.jpeg" class="card-img-top" alt="Cricket Bat">
+                <div class="card-body">
+                    <h5 class="card-title">Cricket Bat</h5>
+                    <p class="card-text">Lightweight and powerful bat for all players.</p>
+                    <button class="btn btn-primary btn-block" onclick="openForm()">Buy Now</button>
+                </div>
+            </div>
+        </div>  
+            
+        </div>
+        
+
+    </section>
+
+    <!-- Buy Now Form (Modal) -->
+    <div id="buyForm" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2 class="text-center">Purchase Form</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Address" required>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    
+   
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3" >
+        <p>&copy; 2024 Rajath Sports Store. All Rights Reserved.</p>
+    
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">Feel free to reach out for any inquiries!</p>
+        <div class="text-center">
+            <a href="https://instagram.com/rajath" class="text-primary mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://github.com/rajath" class="text-dark mx-2"><i class="fab fa-github fa-2x"></i></a>
+            <a href="mailto:rajath@gmail.com" class="text-danger mx-2"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+    </section>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Open Buy Now Form
+        function openForm() {
+            document.getElementById('buyForm').style.display = 'block';
+        }
+
+        // Close Buy Now Form
+        function closeForm() {
+            document.getElementById('buyForm').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
